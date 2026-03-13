@@ -248,3 +248,4 @@ else{
     finalScoreElement.classList.add("scores-high");game-2
 }
 // code end here😎🥲 //
+// ///
