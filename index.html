@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen active" id="start-screen">
+        <h1>Quiz Time</h1>
+
+        <p class="intro">Test your knowledge</p>
+        <p class="intro">Each question has 4 options</p>
+        <p class="intro">Only one correct answer</p>
+        <button id="start-btn">start Quiz</button>
+      </div>
+
+      <div class="screen" id="quiz-screen">
+        <div class="quiz-heading">
+          <h1 id="countdown">10</h1>
+          <p id="message"></p>
+          <h2 id="question-text">what is the question</h2>
+          <div class="quiz-info">
+            <p>
+              quistion <span id="current-question">1</span> of
+              <span id="total-questions">5</span>
+            </p>
+            <p>score <span id="score">0</span></p>
+          </div>
+        </div>
+        <div id="answers-container" class="answer-container">
+          <!-- answer button are here here our code -->
+        </div>
+        <div class="progress-bar">
+          <div id="progress" class="progress"></div>
+        </div>
+
+        <button id="retry-btn" style="display: none">Try Again</button>
+      </div>
+      <!--  -->
+
+      <div id="result-screen" class="screen">
+        <h1>quiz result</h1>
+        <div class="result-info">
+          <p class="final">
+            you scored <span id="final-score" class="final2">0</span> out of
+            <span id="max-score" class="final3"></span>
+          </p>
+          <div id="result-message" class="result">good job</div>
+        </div>
+        <button id="result-btn">Try again</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
