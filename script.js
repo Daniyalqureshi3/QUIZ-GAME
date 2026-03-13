@@ -245,7 +245,10 @@ else if(scores <= 7){
     finalScoreElement.classList.add("scores-medium");
 }
 else{
-    finalScoreElement.classList.add("scores-high");
+    finalScoreElement.classList.add("scores-high");game-2
 }
 // code end here😎🥲 //
 // ///
+// ///
+///////
+
